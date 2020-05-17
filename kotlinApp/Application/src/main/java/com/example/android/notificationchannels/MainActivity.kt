@@ -113,7 +113,7 @@ class MainActivity : Activity() {
 
         private val titleSecondaryText: String
             get() {
-                if (main_primary_title != null) {
+                if (main_secondary_title != null) {
                     return main_secondary_title.text.toString()
                 }
                 return ""
